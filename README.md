@@ -4,7 +4,15 @@ Centralized location of configuration files for tools/programs that I use on a r
 I'll add new updates to this repo whenever I find/discover new configuration settings that can further optimize my processes. I welcome any input in regards to make these tools the absolute best they can be!
 
 ### Specific Notes
-For the tmux configuration file, you need to be running tmux version >2.0 in order to not run into any configuration line errors at tmux execution time. If you run into any errors launching your tmux, check your version number first with command `tmux -V` before troubleshooting any further. 
+#### tmux
+For the tmux configuration file, you need to be running tmux version >=2.0 in order to not run into any configuration line errors at tmux execution time. If you run into any errors launching your tmux, check your version number first with command 
+
+`tmux -V` 
+
+before troubleshooting any further. 
+
+#### Vim
+I'm not aware of any vimrc options conflicting with older version of Vim, but for the sake of balance I'll state that my vim options were tested using version >=7.4.
 
 ### Usage
-These config files are released for the public domain and you are free to download, make modifications, and otherwise use these config files as you see fit for your development environment without needing to attribute credit to myself. 
+These config files are released for the public domain and you are free to download, make modifications, and otherwise use these config files as you see fit for your development environment without needing to attribute credit to myself.  Also, see The Unlicense -> http://unlicense.org/
